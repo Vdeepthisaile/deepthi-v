@@ -1,0 +1,6 @@
+x = int(input("User Input: "))
+cd = 0
+while x > 0:
+   x = int(x/10)
+   cd += 1
+print("Number of Digits: ",cd)
